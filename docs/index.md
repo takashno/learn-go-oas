@@ -26,6 +26,8 @@ GoLangにてWebシステムを開発するために整理しておかなけれ�
 
 それぞれの内容については、[adr-tools](https://github.com/npryce/adr-tools/blob/master/INSTALL.md)で作成したMarkdownにてまとめる。
 
+[page](./development/decisions/0001-record-architecture-decisions.md)
+
 ---
 
 ## 参考資料

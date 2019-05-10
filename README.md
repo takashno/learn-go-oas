@@ -102,4 +102,40 @@ go.modというファイルが作成される。
 
 ## REST-API (gs-restapi-01)
 
+パッケージ追加を行う。
+
+```bash
+go get github.com/ant0ine/go-json-rest/rest
+```
+
+実装はソースを確認。
+実行結果は以下。
+
+```bash
+$ curl -i -v http://127.0.0.1:8080/
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.54.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Content-Type: application/json; charset=utf-8
+Content-Type: application/json; charset=utf-8
+< X-Powered-By: go-json-rest
+X-Powered-By: go-json-rest
+< Date: Thu, 09 May 2019 17:40:59 GMT
+Date: Thu, 09 May 2019 17:40:59 GMT
+< Content-Length: 28
+Content-Length: 28
+
+< 
+{
+  "Body": "Hello World!"
+* Connection #0 to host 127.0.0.1 left intact
+}
+```
 
