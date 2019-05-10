@@ -41,6 +41,28 @@ GoLangにてWebシステムを開発するために整理しておかなけれ�
 - `VSCode` + `Go` プラグイン
 - 無償で他あれば検討
 
+### VSCodeの `Go` プラグインでさらに入れているTool
+
+- gocode
+- gopkgs
+- go-outline
+- go-symbols
+- guru
+- gorename
+- dlv
+- gocode-gomod
+- godef
+- goreturns
+- golint
+- gopls
+- gotests
+- gomodifytags
+- impl
+- fillstruct
+- goplay
+- godoctor
+
+
 ---
 
 ## GoLangバージョン管理
@@ -105,7 +127,9 @@ Webアプリケーションを構築するためのフレームワークに特�
 
 ## 静的解析
 
-GoLangのソースコードの静的解析について調べる。
+静的解析は外部ツールを用いて実施する。  
+コーディング時に、`Lint` 系ツールである `golint` を利用して検知する方法が一番効率が良い。  
+コーディング中に、リアルタイムに警告を出してくれるため是正対応を行いやすい。
 
 ---
 
