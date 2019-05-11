@@ -4,7 +4,7 @@ Date: 2019-05-11
 
 ## Status
 
-Accepted
+調査中
 
 ## Context
 

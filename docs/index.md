@@ -17,11 +17,11 @@ GoLangによるWEBシステム開発を行う場合における、
 |[ビルドシステム](./development/decisions/0006-build.md)||x|x|x||x|x|
 |[WEBフレームワーク](./development/decisions/0007-web-framework.md)||x||||||
 |[ORMフレームワーク](./development/decisions/0008-orm-framework.md)||x||||||
-|[静的解析](#静的解析)|||x||x|||
-|[テストフレームワーク](#テストフレームワーク)|||x||x|||
-|[Mockフレームワーク](#Mockフレームワーク)|||x||x|||
-|[カバレッジ](#カバレッジ)|||x||x|||
-|[自動生成](#自動生成)|x|x|x||||
+|[静的解析](./development/decisions/0009-static-code-analysis.md)|||x||x|||
+|[テストフレームワーク](./development/decisions/0010-test-framework.md)|||x||x|||
+|[Mockフレームワーク](./development/decisions/0011-mock-framework.md)|||x||x|||
+|[カバレッジ](./development/decisions/0012-coverage.md)|||x||x|||
+|[自動生成](./development/decisions/0013-auto-generator.md)|x|x|x||||
 |[OAS3（ソースコード）](#OAS3（ソースコード）)||x||||||
 |[OAS3（スタブ）](#OAS3（スタブ）)|||x|x||||
 |[OAS3（ドキュメント）](#OAS3（ドキュメント）)|x|||||||
@@ -124,6 +124,7 @@ GoLangにテストを行うための仕組みが用意されている。
 ### サンプル
 
 - 対象コード
+
 ```go
 package main
 
