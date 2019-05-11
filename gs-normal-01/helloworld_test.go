@@ -12,7 +12,7 @@ func TestMain(m *testing.M) {
 
 // messageのテスト
 func TestMessage(t *testing.T) {
-	if "Hello World !!" != message() {
+	if "Hello World !!!" != message() {
 		t.Fatal("fail test")
 	}
 }

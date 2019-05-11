@@ -11,12 +11,12 @@ GoLangによるWEBシステム開発を行う場合における、
 |要素|仕様|MK|UT|SI|CI|CD (Dev)|CD (Pro)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[IDE](./development/decisions/0002-ide.md)||x||||||
-|[GoLangバージョン管理](#GoLangバージョン管理)||x|||||
-|[パッケージ管理（利用）](#パッケージ管理（利用）)||x|x|x||||
-|[パッケージ管理（内部管理）](#パッケージ管理（内部管理）)||x|x|x||||
-|[ビルドシステム](#ビルドシステム)||x|x|x||x|x|
-|[WEBフレームワーク](#WEBフレームワーク)||x||||||
-|[ORMフレームワーク](#ORMフレームワーク)||x||||||
+|[GoLangバージョン管理](./development/decisions/0003-golang-version-control.md)||x|||||
+|[パッケージ管理（利用）](./development/decisions/0004-package-management-use.md)||x|x|x||||
+|[パッケージ管理（内部管理）](./development/decisions/0005-package-inner-management.md)||x|x|x||||
+|[ビルドシステム](./development/decisions/0006-build.md)||x|x|x||x|x|
+|[WEBフレームワーク](./development/decisions/0007-web-framework.md)||x||||||
+|[ORMフレームワーク](./development/decisions/0008-orm-framework.md)||x||||||
 |[静的解析](#静的解析)|||x||x|||
 |[テストフレームワーク](#テストフレームワーク)|||x||x|||
 |[Mockフレームワーク](#Mockフレームワーク)|||x||x|||
@@ -28,8 +28,6 @@ GoLangによるWEBシステム開発を行う場合における、
 |[CIシステム](#CIシステム)||x|x||x|||
 
 それぞれの内容については、[adr-tools](https://github.com/npryce/adr-tools/blob/master/INSTALL.md)で作成したMarkdownにてまとめる。
-
-[page](./development/decisions/0001-record-architecture-decisions.md)
 
 ---
 
