@@ -1,13 +1,16 @@
-# GoLang開発まとめ
+# GoLang 開発
+
+## 概要
+GoLangによるWEBシステム開発を行う場合における、
+下流工程をメインとした開発手法およびプロセスを検討・整理する。
+下流工程とは、製造工程（MK）以降を指す。
 
 ## 検討要素一覧
-
-GoLangにてWebシステムを開発するために整理しておかなければならないものをリストアップする。
-それぞれの整理する要素に対して何に関するものかをチェックした表となる。
+検討要素に対して関連する工程（一部作業も含む）をチェックした表となる。
 
 |要素|仕様|MK|UT|SI|CI|CD (Dev)|CD (Pro)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[IDE](#IDE)||x||||||
+|[IDE](./development/decisions/0002-ide.md)||x||||||
 |[GoLangバージョン管理](#GoLangバージョン管理)||x|||||
 |[パッケージ管理（利用）](#パッケージ管理（利用）)||x|x|x||||
 |[パッケージ管理（内部管理）](#パッケージ管理（内部管理）)||x|x|x||||
@@ -36,36 +39,10 @@ GoLangにてWebシステムを開発するために整理しておかなけれ�
 |:---|:---|
 |[Go言語 文法まとめ](https://qiita.com/rock619/items/db44507d02814e490902)|文法がまとまっている|
 |[実践Go言語](http://golang.jp/effective_go)|構文＋言語仕様説明|
+|[コーディングから攻めるGO性能の話](https://persol-pt.github.io/posts/tech-workshop20180406/)|GOのパフォーマンスチューニング|
 
 ---
 
-## IDE
-- `VSCode` + `Go` プラグイン
-- 無償で他あれば検討
-
-### VSCodeの `Go` プラグインでさらに入れているTool
-
-- gocode
-- gopkgs
-- go-outline
-- go-symbols
-- guru
-- gorename
-- dlv
-- gocode-gomod
-- godef
-- goreturns
-- golint
-- gopls
-- gotests
-- gomodifytags
-- impl
-- fillstruct
-- goplay
-- godoctor
-
-
----
 
 ## GoLangバージョン管理
 固定とするならば、msi等のインストローラでも構わないように思える。  
