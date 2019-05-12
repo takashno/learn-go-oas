@@ -1,6 +1,6 @@
 # テストフレームワーク
 
-[Back](../../index.md)
+[Back](../../)
 
 GoLangにテストを行うための仕組みが用意されている。  
 詳細に関してはGoLangの[公式ドキュメント](https://golang.org/pkg/testing/)にTestingの利用方法が記載されている。
