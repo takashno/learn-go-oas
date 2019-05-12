@@ -1,19 +1,15 @@
-# 7. web framework
+# WEBフレームワーク
 
-Date: 2019-05-11
+[Back](../../)
 
-## Status
+Webアプリケーションを構築するためのフレームワークに特化して検討する。  
+また、優先すべきアプリ形態としてはREST-APIとなる。
 
-Accepted
+|名称|既存|概要|ライセンス|開発状況|シェア|継続・保守性|
+|:---|:---:|:---|:---:|:---|:---|:---|
+|[gin-gonic/gin](https://github.com/gin-gonic/gin)|||MIT|||||
+|[astaxie/beego](https://github.com/astaxie/beego)|||Apache2.0|||||
+|[kataras/iris](https://github.com/kataras/iris)|||BSD|||||
 
-## Context
-
-The issue motivating this decision, and any context that influences or constrains the decision.
-
-## Decision
-
-The change that we're proposing or have agreed to implement.
-
-## Consequences
-
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+3つほど、よく使われていそうなものを選択して調べた。  
+なお、既存は上記のいずれでもない場合がある。

@@ -1,19 +1,16 @@
-# 12. coverage
+# カバレッジ
 
-Date: 2019-05-11
+[Back](../../)
 
-## Status
+GoLangの `Testing` に `Coverage` を取得する仕組みが組み込まれている。  
 
-Accepted
+## Testing - Coverage
 
-## Context
+### Pros
+- テストの実行オプションに追加するだけで簡単に取得が可能
+- HTMLのレポートへ変換が可能（見た目的にはそこまでクォリティは高くない）
+### Cons
+- `C0` のみ対応？レポートを見る限りそう見える…
 
-The issue motivating this decision, and any context that influences or constrains the decision.
-
-## Decision
-
-The change that we're proposing or have agreed to implement.
-
-## Consequences
-
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+### TODO
+- SonarQube等との連携方法
