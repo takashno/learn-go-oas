@@ -22,3 +22,4 @@ https://github.com/takashno/learning-golang-gin
 簡単に実装が出来た。  
 複雑なことができるのかはわからないが、
 基本的なWEBアプリを作成するのに圧倒的に不足しているようなものはない。
+OpenApiのCodeGeneratorもginは対応している模様。
