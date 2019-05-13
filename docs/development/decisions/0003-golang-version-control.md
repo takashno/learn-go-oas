@@ -1,17 +1,6 @@
 # GoLangバージョン管理
 
-Date: 2019-05-11
-
-## Status
-
-調査中
-
-## Context
-
-固定とするならば、msi等のインストローラでも構わないように思える。  
-それなりに言語としてのアップデートも激しい模様。  
-
-## Decision
+[Back](../../)
 
 `goenv` が検索ヒットとして多いので試してみる。
 https://github.com/syndbg/goenv/blob/master/INSTALL.md
@@ -45,8 +34,4 @@ go version go1.12.4 darwin/amd64
 
 それなりにスムーズにインストールが可能。  
 ハマりポイントもなかったが、Windowsで試せていない。
-
-## Consequences
-
-判断中
 

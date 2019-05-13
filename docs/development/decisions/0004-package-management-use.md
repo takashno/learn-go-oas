@@ -1,19 +1,13 @@
-# 4. package management use
+# パッケージ管理（利用）
 
-Date: 2019-05-11
+[Back](../../)
 
-## Status
+GoLangに含有されている。  
+ここ数年で大分揺れている。  
+以下遷移も含めて一覧となる。  
 
-調査中
-
-## Context
-
-The issue motivating this decision, and any context that influences or constrains the decision.
-
-## Decision
-
-The change that we're proposing or have agreed to implement.
-
-## Consequences
-
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+|方法|Since|概要|
+|:---|:---|:---|
+|go get|?|?|
+|vgo|?|?|
+|Module|1.11|?|

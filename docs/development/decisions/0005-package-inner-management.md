@@ -1,19 +1,8 @@
-# 5. package inner management
+# パッケージ管理（内部管理）
 
-Date: 2019-05-11
+[Back](../../)
 
-## Status
-
-Accepted
-
-## Context
-
-The issue motivating this decision, and any context that influences or constrains the decision.
-
-## Decision
-
-The change that we're proposing or have agreed to implement.
-
-## Consequences
-
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+開発用の内部パッケージの管理方法。  
+`Module` については `git` で `clone`するのが通例のようなので、
+そういう意味だとGitLabがあればいいのか？  
+あとは、`go mod` コマンドのリポジトリの向け先を変えることができればOK？
