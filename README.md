@@ -28,7 +28,7 @@ Downloading go1.12.4.darwin-amd64.tar.gz...
 -> https://dl.google.com/go/go1.12.4.darwin-amd64.tar.gz
 Installing Go Darwin 64bit 1.12.4...
 Installed Go Darwin 64bit 1.12.4 to /Users/takashimanozomu/.goenv/versions/1.12.4
-$ go global 1.12.4
+$ goenv global 1.12.4
 $ go version
 go version go1.12.4 darwin/amd64
 ```
