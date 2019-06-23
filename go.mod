@@ -1,4 +1,4 @@
-module github.com/takashno/learning-go-oas
+module github.com/takashno/learning-golang
 
 go 1.12
 
